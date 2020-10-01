@@ -13,3 +13,4 @@ echo -e "$ITEM \t $COST \t $PRICE \t $INV" >> ~/hardware.database
 sort ~/hardware.database > /tmp/$$.tmp
 rm ~/hardware.database
 mv /tmp/$$.tmp ~/hardware.database
+#Git Comment
